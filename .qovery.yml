@@ -1,0 +1,11 @@
+---
+application:
+  name: "webtorrentapp"
+  project: "torrent-downloader"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-webtorrentapp"
+  routes:
+  - application_name: "webtorrentapp"
+    paths:
+    - "/*"
